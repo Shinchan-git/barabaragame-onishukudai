@@ -13,6 +13,11 @@
 		EBC8010B2824A8E600FD4795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC801092824A8E600FD4795 /* Main.storyboard */; };
 		EBC8010D2824A8E800FD4795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC8010C2824A8E800FD4795 /* Assets.xcassets */; };
 		EBC801102824A8E800FD4795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC8010E2824A8E800FD4795 /* LaunchScreen.storyboard */; };
+		EBC8011A2824AB2100FD4795 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC801182824AB2100FD4795 /* tail.png */; };
+		EBC8011B2824AB2100FD4795 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EBC801192824AB2100FD4795 /* bar.png */; };
+		EBC8011D28266C3300FD4795 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC8011C28266C3300FD4795 /* GameViewController.swift */; };
+		EBC8011F28266C4200FD4795 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC8011E28266C4200FD4795 /* RankingViewController.swift */; };
+		EBC8012128267D2500FD4795 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC8012028267D2500FD4795 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		EBC8010C2824A8E800FD4795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBC8010F2824A8E800FD4795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBC801112824A8E800FD4795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBC801182824AB2100FD4795 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		EBC801192824AB2100FD4795 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		EBC8011C28266C3300FD4795 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EBC8011E28266C4200FD4795 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		EBC8012028267D2500FD4795 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +69,25 @@
 				EBC801032824A8E600FD4795 /* AppDelegate.swift */,
 				EBC801052824A8E600FD4795 /* SceneDelegate.swift */,
 				EBC801072824A8E600FD4795 /* ViewController.swift */,
+				EBC8011C28266C3300FD4795 /* GameViewController.swift */,
+				EBC8011E28266C4200FD4795 /* RankingViewController.swift */,
+				EBC8012028267D2500FD4795 /* Constants.swift */,
 				EBC801092824A8E600FD4795 /* Main.storyboard */,
 				EBC8010C2824A8E800FD4795 /* Assets.xcassets */,
 				EBC8010E2824A8E800FD4795 /* LaunchScreen.storyboard */,
 				EBC801112824A8E800FD4795 /* Info.plist */,
+				EBC801172824AB2100FD4795 /* Barabara素材 */,
 			);
 			path = BarabaraGame;
+			sourceTree = "<group>";
+		};
+		EBC801172824AB2100FD4795 /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				EBC801182824AB2100FD4795 /* tail.png */,
+				EBC801192824AB2100FD4795 /* bar.png */,
+			);
+			path = "Barabara素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBC801102824A8E800FD4795 /* LaunchScreen.storyboard in Resources */,
+				EBC8011B2824AB2100FD4795 /* bar.png in Resources */,
+				EBC8011A2824AB2100FD4795 /* tail.png in Resources */,
 				EBC8010D2824A8E800FD4795 /* Assets.xcassets in Resources */,
 				EBC8010B2824A8E600FD4795 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC8011F28266C4200FD4795 /* RankingViewController.swift in Sources */,
+				EBC8011D28266C3300FD4795 /* GameViewController.swift in Sources */,
 				EBC801082824A8E600FD4795 /* ViewController.swift in Sources */,
 				EBC801042824A8E600FD4795 /* AppDelegate.swift in Sources */,
 				EBC801062824A8E600FD4795 /* SceneDelegate.swift in Sources */,
+				EBC8012128267D2500FD4795 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
